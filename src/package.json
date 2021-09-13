@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "name": "actiongroup-not-quiet",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "latest",
+    "@adobe/react-spectrum": "^3.13.0",
+    "@apollo/client": "^3.2.5",
+    "@react-spectrum/table": "^3.0.0-rc.1",
+    "@babel/runtime": "latest"
+  },
+  "dependencies": {
+    "msw": "^0.24.4",
+    "@adobe/react-spectrum": "^3.13.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "keywords": [],
+  "description": ""
+}
